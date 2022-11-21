@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_sennasmso:/data/vehicles.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/data/carcols.meta</filename>
+      <fileType>CARCOLS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/data/carvariations.meta</filename>
+      <fileType>VEHICLE_VARIATION_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/data/sennasmsocontentunlocks.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>	
+    <Item>
+      <filename>dlc_sennasmso:/%PLATFORM%/vehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/%PLATFORM%/vehiclemods/sennasmso_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_sennasmso:/data/ai/vehiclelayouts.meta</filename>
+      <fileType>VEHICLE_LAYOUTS_FILE</fileType>
+      <locked value="true"/>
+	  <disabled value="true"/>
+	  <persistent value="true"/>
+	  <overlay value="true"/>
+    </Item>
+	<Item>
+      <filename>dlc_sennasmso:/data/anim/clip_sets/clip_sets.xml</filename>
+      <fileType>CLIP_SETS_FILE</fileType>
+      <locked value="true"/>
+	  <disabled value="true"/>
+	  <persistent value="true"/>
+	  <overlay value="true"/>
+    </Item>
+	<Item>
+      <filename>dlc_sennasmso:/%PLATFORM%/audio/m840trsenna_game.dat</filename>
+      <fileType>AUDIO_GAMEDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/%PLATFORM%/audio/m840trsenna_sounds.dat</filename>
+      <fileType>AUDIO_SOUNDDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_sennasmso:/%PLATFORM%/audio/m840trsenna_amp.dat</filename>
+      <fileType>AUDIO_GAMEDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_sennasmso:/%PLATFORM%/audio/sfx/dlc_m840trsenna</filename>
+      <fileType>AUDIO_WAVEPACK</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+  </dataFiles>
+  <contentChangeSets>
+	<Item>
+	  <changeSetName>sennasmso_AUTOGEN</changeSetName>
+	  <filesToDisable />
+	  <filesToEnable>
+        <Item>dlc_sennasmso:/data/handling.meta</Item>
+        <Item>dlc_sennasmso:/data/vehicles.meta</Item>
+        <Item>dlc_sennasmso:/data/carcols.meta</Item>
+        <Item>dlc_sennasmso:/data/carvariations.meta</Item>
+        <Item>dlc_sennasmso:/data/dlctext.meta</Item>
+        <Item>dlc_sennasmso:/data/sennasmsocontentunlocks.meta</Item>	
+        <Item>dlc_sennasmso:/%PLATFORM%/vehicles.rpf</Item>
+        <Item>dlc_sennasmso:/%PLATFORM%/vehiclemods/sennasmso_mods.rpf</Item>
+		<Item>dlc_sennasmso:/data/ai/vehiclelayouts.meta</Item>
+		<Item>dlc_sennasmso:/data/anim/clip_sets/clip_sets.xml</Item>
+		<Item>dlc_sennasmso:/%PLATFORM%/audio/m840trsenna_game.dat</Item>
+        <Item>dlc_sennasmso:/%PLATFORM%/audio/m840trsenna_sounds.dat</Item>
+		<Item>dlc_sennasmso:/%PLATFORM%/audio/m840trsenna_amp.dat</Item>
+        <Item>dlc_sennasmso:/%PLATFORM%/audio/sfx/dlc_m840trsenna</Item>	
+	  </filesToEnable>
+	  <txdToLoad />
+	  <txdToUnload />
+	  <residentResources />
+	  <unregisterResources />
+	</Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>

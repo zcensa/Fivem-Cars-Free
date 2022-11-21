@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_sennasmso_VEH</lockHash>
+			<modelNameHash>sennasmso</modelNameHash>
+			<cost value="100"/>
+			<textLabel>sennasmso</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>
+</ShopVehicleDataArray>
