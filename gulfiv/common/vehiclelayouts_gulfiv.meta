@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+  <AnimRateSets />
+  <ClipSetMaps />
+  
+  
+  
+  
+  
+  <VehicleCoverBoundOffsetInfos />
+  
+  <BicycleInfos />
+  
+  <POVTuningInfos />
+  
+  <EntryAnimVariations />
+  
+  <VehicleExtraPointsInfos />
+  
+  
+  
+  
+  <DrivebyWeaponGroups />
+  
+  
+  
+  
+  
+  <VehicleDriveByAnimInfos />
+    
+	
+	
+	
+	
+  <VehicleSeatInfos />
+  
+  
+  
+  
+  
+  <VehicleSeatAnimInfos />
+  
+  
+  
+  
+  
+  <VehicleEntryPointInfos>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_FRONT_LEFT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_MILJET" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+	  <BreakoutTestPoint>GET_IN</BreakoutTestPoint>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_FRONT_RIGHT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_FRONT_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_MILJET" />
+      <Flags>IgnoreSmashWindowCheck BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides />
+	  <BreakoutTestPoint>GET_IN</BreakoutTestPoint>
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_REAR_LEFT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_NO_SHUFFLE_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_NIMBUS_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+      <BreakoutTestPoint>POINT_TYPE_MAX</BreakoutTestPoint>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_REAR_RIGHT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PLANE_NIMBUS_NO_SHUFFLE_RIGHT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_NIMBUS_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+      <BreakoutTestPoint>POINT_TYPE_MAX</BreakoutTestPoint>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_EXTRA_LEFT_1</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_NIMBUS_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+      <BreakoutTestPoint>POINT_TYPE_MAX</BreakoutTestPoint>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_EXTRA_RIGHT_1</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PLANE_NIMBUS_NO_SHUFFLE_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_NIMBUS_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+      <BreakoutTestPoint>POINT_TYPE_MAX</BreakoutTestPoint>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_EXTRA_RIGHT_2</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_NIMBUS_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+      <BreakoutTestPoint>POINT_TYPE_MAX</BreakoutTestPoint>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PLANE_GULFIV_EXTRA_RIGHT_3</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_PLANE_NIMBUS_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+      <BreakoutTestPoint>POINT_TYPE_MAX</BreakoutTestPoint>
+    </Item>
+  </VehicleEntryPointInfos>
+  
+  
+  
+  
+  
+  <VehicleEntryPointAnimInfos>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PLANE_GULFIV_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_JET" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_NIMBUS_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_NIMBUS_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.706000" y="9.600000" z="-0.822000" />
+      <OpenDoorTranslation x="-0.475000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PLANE_GULFIV_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_JET" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_NIMBUS_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_NIMBUS_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.706000" y="9.600000" z="-0.822000" />
+      <OpenDoorTranslation x="-0.475000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_JET" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_LEFT_1" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_LEFT_1" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.706000" y="9.600000" z="-0.822000" />
+      <OpenDoorTranslation x="-0.475000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_JET" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_RIGHT_1" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_RIGHT_1" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-4.306000" y="9.700000" z="-0.822000" />
+      <OpenDoorTranslation x="-0.475000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_RIGHT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_JET" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_RIGHT_2" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_RIGHT_2" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.706000" y="10.10000" z="-0.855000" />
+      <OpenDoorTranslation x="-0.475000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_RIGHT_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_JET" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_RIGHT_3" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_NIMBUS_EXTRA_RIGHT_3" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.706000" y="10.10000" z="-0.855000" />
+      <OpenDoorTranslation x="-0.475000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+  
+  
+  <VehicleExplosionInfos />
+  
+  
+  <VehicleLayoutInfos>
+    <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_PLANE_GULFIV</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_JET_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_JET_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_NO_SHUFFLE_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_NIMBUS_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PLANE_NIMBUS_NO_SHUFFLE_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_NIMBUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_NIMBUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PLANE_NIMBUS_NO_SHUFFLE_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_NIMBUS_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_NIMBUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_PLANE_NIMBUS_REAR_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_MILJET_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_MILJET_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_GULFIV_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_GULFIV_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_EXTRA_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_LEFT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_EXTRA_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_RIGHT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_EXTRA_RIGHT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_RIGHT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PLANE_GULFIV_EXTRA_RIGHT_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PLANE_GULFIV_EXTRA_RIGHT_3" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims DisableJackingAndBusting ClimbUpAfterOpenDoor UseFinerAlignTolerance AllowEarlyDoorAndSeatUnreservation</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+  </VehicleLayoutInfos>
+  
+  
+  <VehicleScenarioLayoutInfos />
+  
+  
+  <SeatOverrideAnimInfos />
+  
+  
+  <InVehicleOverrideInfos />
+    
+  <FirstPersonDriveByLookAroundData />
+</CVehicleMetadataMgr>
