@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>     
+		    <Item>
+      <modelName>tw_ar3sb</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            0
+            112
+            0
+            27	
+            117
+            0	
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>2021145231524_tw_ar3sb_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1008"/>
+      <sirenSettings value="0"/>
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
