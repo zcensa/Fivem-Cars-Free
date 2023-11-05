@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShopVehicleDataArray>
+	<Vehicles>
+	<Item>
+		<lockHash>CU_VEH_gxmc12</lockHash>
+		<modelNameHash>gxmc12</modelNameHash>
+		<cost value="100"/>
+		<textLabel>gxmc12</textLabel>
+		<textLabel></textLabel>
+	</Item>
+	</Vehicles>
+</ShopVehicleDataArray>
