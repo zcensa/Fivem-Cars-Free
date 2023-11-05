@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShopVehicleDataArray>
+	<Vehicles>
+	<Item>
+		<lockHash>CU_VEH_bus</lockHash>
+		<modelNameHash>bus</modelNameHash>
+		<cost value="100"/>
+		<textLabel>bus</textLabel>
+		<textLabel></textLabel>
+	</Item>
+	</Vehicles>
+</ShopVehicleDataArray>
