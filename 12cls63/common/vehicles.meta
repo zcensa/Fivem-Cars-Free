@@ -4,18 +4,18 @@
   <residentAnims/>
   <InitDatas>
     <Item>
-      <modelName>cls63amg</modelName>
-      <txdName>cls63amg</txdName>
-      <handlingId>cls63amg</handlingId>
-      <gameName>CLS 63 AMG</gameName>
-      <vehicleMakeName>Mercedes</vehicleMakeName>
+      <modelName>12cls63</modelName>
+      <txdName>12cls63</txdName>
+      <handlingId>12cls63</handlingId>
+      <gameName>12cls63</gameName>
+      <vehicleMakeName>BENCHI</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
       <animConvRoofDictName>null</animConvRoofDictName>
       <animConvRoofName>null</animConvRoofName>
       <animConvRoofWindowsAffected/>
       <ptfxAssetName>null</ptfxAssetName>
-      <audioNameHash>schafter3</audioNameHash>
+      <audioNameHash>XA21</audioNameHash>
       <layout>LAYOUT_STD_HIGHWINDOW</layout>
       <coverBoundOffsets>DOMINATOR_COVER_OFFSET_INFO</coverBoundOffsets>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
@@ -116,11 +116,11 @@
   <txdRelationships>
     <Item>
       <parent>vehicles_schaf_interior</parent>
-      <child>cls63amg_1</child>
+      <child>12cls63_1</child>
     </Item>
     <Item>
-      <parent>cls63amg_1</parent>
-      <child>cls63amg</child>
+      <parent>12cls63_1</parent>
+      <child>12cls63</child>
     </Item>
   </txdRelationships>
 </CVehicleModelInfo__InitDataList>
