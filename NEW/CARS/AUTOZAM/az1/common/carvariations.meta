@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>az1</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            27
+            3
+            0
+            156
+            29
+          </indices>
+          <liveries/>
+        </Item>
+	    	<Item>
+          <indices content="char_array">
+            64
+            3
+            0
+            156
+            73
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+        <Item>1356_az1_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="70" />
+          </Item>
+          <Item>
+            <Name>White Plate 2</Name>
+            <Value value="10" />
+          </Item>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="10" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="10" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
