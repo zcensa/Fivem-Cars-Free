@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<!-- ### launcher ### -->
+		
+		<Item>
+			<modelName>W_LR_F4E_AIM9</modelName>
+			<txdName>W_LR_F4E_AIM9</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>w_lr_f4e_aam3</modelName>
+			<txdName>w_lr_f4e_aam3</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>W_LR_UGBA</modelName>
+			<txdName>W_LR_UGBA</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>W_LR_F4E_SAAM</modelName>
+			<txdName>W_LR_F4E_SAAM</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="600"/>
+		</Item>
+		<Item>
+			<modelName>W_LR_F4E_AGM65</modelName>
+			<txdName>W_LR_F4E_AGM65</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="400"/>
+		</Item>
+
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
